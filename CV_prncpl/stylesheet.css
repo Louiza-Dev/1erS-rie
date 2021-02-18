@@ -1,0 +1,119 @@
+body {
+	margin: 10px;
+	padding: 20px;
+}
+div img {
+	width: 200px;
+	height: 200px;
+}
+ul img {
+	width: 40px;
+}
+option img {
+	width: 40px;
+	text-align: center;
+}
+header {
+	  padding: 15px;
+	  display: flex;
+		font-size: 20px;
+		color: azure;
+	  border-radius: 10px;
+		background-color: #1e2761;
+		box-shadow: 0px 15px 15px #1c1a19;
+	  justify-content: space-between;
+	  align-items: flex-end;
+	}
+#profil {
+	font-size: 1.5em;
+	font-weight: lighter;
+	font-family: cursive;
+}
+div {
+	/*background-color: #408ec6;*/
+	background: url('https://humer-lagamme.fr/wp-content/uploads/2019/01/eaumer-desktop.jpg');
+	justify-content: space-between;
+	align-items: flex-end;
+	display: flex;
+	padding-left: 30px;
+	border-radius: 10px;
+	box-shadow: 0px 10px 10px #1c1a19;
+}
+
+h1 {
+	font-size: 4em;
+	color: #1e2761;
+	text-shadow: 0.06em 0.06em lightcyan;
+	text-align: center;
+	font-family: cursive;
+}
+nav {
+    text-align: justify;
+		width: 60%;
+}
+a {
+	color: lightcyan;
+}
+.centré {
+	text-align: center;
+	justify-content: space-between;
+}
+button {
+	width: 90%;
+	height: 70px;
+	border-radius: 10%;
+	font-size: 2em;
+	text-align: center;
+	font-family: cursive;
+	background: url('https://humer-lagamme.fr/wp-content/uploads/2019/01/eaumer-desktop.jpg');
+}
+header button {
+	text-shadow: 0.06em 0.06em #1e2761;
+	color: lightcyan;
+}
+section button {
+	text-shadow: 0.06em 0.06em lightcyan;
+	color: #1e2761;
+}
+article button {
+	text-align: center;
+	font-family: cursive;
+	font-size: 28px;
+	width: 80%;
+	font-size: 2em;
+}
+footer button {
+	font-size: 1.6;
+}
+section {
+	  display: flex;
+		margin-right: 20px;
+		color: #1e2761;
+	  border-radius: 10px;
+		box-shadow: 0px 15px 15px #1c1a19;
+		background-color: lightskyblue;
+		font-size: 20px;
+	  justify-content: space-between;
+	  align-items: flex-end;
+		padding: 15px;
+	}
+aside, footer {
+	line-height: 2.5;
+}
+.acquise {
+	width: 5px;
+  height: 5px;
+  border-radius: 2px;
+	background: #1e2761;
+	border: 1px solid lightcyan;
+}
+.noacquise {
+		width: 5px;
+	  height: 5px;
+	  border-radius: 2px;
+		border: 1px solid #1e2761;
+		background: lightcyan;
+}
+li div {
+	display: inline-block;
+}

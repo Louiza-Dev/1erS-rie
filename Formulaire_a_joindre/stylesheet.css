@@ -1,0 +1,76 @@
+body {
+	margin: 10px;
+	padding: 20px;
+}
+div img {
+	width: 200px;
+	height: 200px
+}
+ul img {
+	width: 40px;
+}
+header {
+	  padding: 15px;
+	  display: flex;
+		font-size: 20px;
+	  justify-content: space-between;
+	  align-items: flex-end;
+	}
+#profil {
+	font-size: 1.5em;
+	font-family: cursive;
+}
+div {
+	background-image: url('https://tse2.mm.bing.net/th?id=OIP.YWDbLUWDcqjtXnZhpb-zTQHaDx&pid=Api&P=0&w=331&h=170');
+  background-size: contain;
+	align-items: stretch;
+	justify-content: space-between;
+	display: flex;
+	padding-left: 30px;
+	border-radius: 10px;
+	box-shadow: 0px 5px 5px #1c1a19;
+}
+h1 {
+	font-size: 4em;
+	text-align: center;
+	font-family: cursive;
+	color: #1d3c45;
+	text-shadow: 0.03em 0.03em #d2601a;
+}
+button {
+	width: 70%;
+	font-size: 2em;
+	background: url('https://tse2.mm.bing.net/th?id=OIP.YWDbLUWDcqjtXnZhpb-zTQHaDx&pid=Api&P=0&w=331&h=170');
+  background-size: cover;
+	font-weight: bold;
+	font-family: cursive;
+	text-align: center;
+	border-radius: 10px;
+	color: #1d3c45;
+	text-shadow: 0.05em 0.05em #d2601a;
+}
+aside button {
+	color: #d2601a;
+	text-shadow: 0.05em 0.05em #1d3c45;
+}
+aside {
+	width: 50%;
+	height: 1300px;
+	padding: 15px;
+	color: #d2601a;
+	border-radius: 10px;
+	background-color: #1d3c45;
+	box-shadow: 0px 15px 15px #1c1a19;
+}
+footer {
+	width: 50%;
+	height: 1300px;
+	padding: 15px;
+	color: #1d3c45;
+	border-radius: 10px;
+	background-color: #d2601a;
+	box-shadow: 0px 15px 15px #1c1a19;;
+}
+aside, footer {
+	line-height: 2;
+}
